@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .sidebar { height: 100vh; background-color: #f4f4f4; padding: 20px; }
+        .header { background-color: #007bff; color: #ffffff; padding: 10px; }
+        .footer { background-color: #343a40; color: #ffffff; padding: 10px; text-align: center; }
+        .widget { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div><strong>ProjectAdmin</strong></div>
+                <div>
+                    <a href="#" class="text-white">Home</a> |
+                    <a href="#" class="text-white">Projects</a> |
+                    <a href="#" class="text-white">Teams</a> |
+                    <a href="#" class="text-white">Reports</a> |
+                    <a href="#" class="text-white">Settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-2 sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Manage Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Analytics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Main Content Area -->
+            <main role="main" class="col-md-10">
+                <div class="container">
+                    <h1>Dashboard</h1>
+                    <div class="row">
+                        <div class="col-md-6 widget">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Project Status</h5>
+                                    <p class="card-text">Overview of ongoing projects and their statuses.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 widget">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Team Activity</h5>
+                                    <p class="card-text">Recent activities and updates from team members.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary mt-3">Create New Project</button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            &copy; 2024 ProjectAdmin. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>

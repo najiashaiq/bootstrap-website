@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header { background-color: #343a40; color: #ffffff; padding: 10px; }
+        .footer { background-color: #343a40; color: #ffffff; padding: 10px; text-align: center; }
+        .profile-info { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div><strong>SocialNet</strong></div>
+                <div>
+                    <a href="#" class="text-white">Home</a> |
+                    <a href="#" class="text-white">Profile</a> |
+                    <a href="#" class="text-white">Messages</a> |
+                    <a href="#" class="text-white">Friends</a> |
+                    <a href="#" class="text-white">Notifications</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Main Content Area -->
+            <main role="main" class="col-md-12">
+                <h1>User Profile</h1>
+                <div class="profile-info">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Profile Information</h5>
+                            <p class="card-text">Username: [username]</p>
+                            <p class="card-text">Email: [email]</p>
+                            <p class="card-text">Bio: [short bio]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity-feed">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Recent Activities</h5>
+                            <p class="card-text">Activity 1: [description]</p>
+                            <p class="card-text">Activity 2: [description]</p>
+                            <p class="card-text">Activity 3: [description]</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary mt-3">Edit Profile</button>
+                <button class="btn btn-secondary mt-3">Change Password</button>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            &copy; 2024 SocialNet. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
